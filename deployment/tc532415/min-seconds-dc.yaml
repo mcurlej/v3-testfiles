@@ -6,7 +6,7 @@ spec:
   replicas: 1
   minReadySeconds: 120
   selector:
-    name: history-limit
+    name: min-seconds
   strategy:
     type: Rolling
     rollingParams:

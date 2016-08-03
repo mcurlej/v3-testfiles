@@ -4,6 +4,7 @@ metadata:
   name: min-seconds
 spec:
   replicas: 1
+  minReadySeconds: 120
   selector:
     name: history-limit
   strategy:

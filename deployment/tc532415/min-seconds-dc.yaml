@@ -20,7 +20,7 @@ spec:
   template:
     metadata:
       labels:
-        name: history-limit
+        name: min-seconds
     spec:
       containers:
       - image: "docker.io/centos:centos7"
